@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+#. "$(dirname -- "$0")/_/husky.sh"
+
+if npm run lint && npx lint-staged; then
+  echo "Linting passed. You are good to go!"
+else
+  echo "Linting failed. Please fix the linting issues and try again."
+  exit 1
+fi
