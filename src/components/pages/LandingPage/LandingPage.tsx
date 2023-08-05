@@ -8,6 +8,7 @@ import YouCanAlways from "./components/YouCanAlways";
 import About from "./components/About";
 import Benefits from "./components/Benefits";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 const LandingPage = () => {
   return (
@@ -21,6 +22,7 @@ const LandingPage = () => {
       <About />
       <Benefits />
       <Testimonials />
+      <Footer />
     </div>
   );
 };
