@@ -13,8 +13,8 @@ const Testimonials = () => {
           <p className="text-secondary text-3xl font-semibold">What People Say About Us</p>
         </div>
 
-        <div className="flex justify-center gap-60 ">
-          <div className="bg-white p-20 border-2 border-primary w-[32rem] rounded-3xl top-60 z-50 absolute">
+        <div className="flex justify-center gap-60 mt-[-17rem] ">
+          <div className="bg-white p-20  border-primary w-[32rem] rounded-2xl  top-60 z-50 absolute">
             <div className="flex items-center">
               <div className="w-20 h-20">
                 <img src="assets/images/logo.jpeg" alt="logo" />
@@ -34,10 +34,10 @@ const Testimonials = () => {
           <div className="absolute z-40">
             <img src="assets/images/tertiary-layer.png" alt="tertiary" />
           </div>
-          <div className="absolute z-30">
+          <div className="absolute z-30 mt-[6rem]">
             <img src="assets/images/secondary-layer.png" alt="secondary" />
           </div>
-          <div className="absolute z-20">
+          <div className="absolute z-20 mt-[14.9rem]">
             <img src="assets/images/primary-layer.png" alt="primary" />
           </div>
         </div>
